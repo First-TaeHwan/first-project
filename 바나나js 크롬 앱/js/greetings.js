@@ -13,7 +13,7 @@ function onLoginSubmit(event) {
 }
 
 function paintGreeting(abc) {
-  greeting.innerText = `Hello ${abc}`;
+  greeting.innerText = `Hello ${abc}!`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
